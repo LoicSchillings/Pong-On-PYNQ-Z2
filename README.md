@@ -80,6 +80,19 @@ All game logic runs on the **ARM Cortex-A9 (PS)**, while video output is handled
 | `2A` | Player 2 ready |
 | `E`  | Reset game |
 
+- **Keyboard**
+  - W -> Player moves up
+  - S -> Player moves down
+  - A -> Player ready to start/restart
+  - E -> Reset game
+
+- **Numpad** (2-players 1 device)
+  - 8 -> Player moves up
+  - 5 -> Player moves down
+  - 4 -> Player ready to start/restart
+
+For starting or restarting the game both players must hold the "ready button" ('a' or '4').
+Only one player has to press 'e' to restart the game.
 ---
 
 ## Python Client
