@@ -1,0 +1,35 @@
+16:28:10 **** Incremental Build of configuration Debug for project EOS-UDP ****
+make all 
+C:/Xilinx/Vitis/2024.1/gnuwin/bin/make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+C:/Xilinx/Vitis/2024.1/gnuwin/bin/make --no-print-directory main-build
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bspinclude/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/udp_perf_server.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/udp_perf_server.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bspinclude/include -MMD -MP -MF"src/udp_perf_server.d" -MT"src/udp_perf_server.o" -o "src/udp_perf_server.o" "../src/udp_perf_server.c"
+'Finished building: ../src/udp_perf_server.c'
+' '
+'Building target: EOS-UDP.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bsplib/lib -o "EOS-UDP.elf"  ./src/iic_phyreset.o ./src/main.o ./src/udp_perf_server.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: EOS-UDP.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size EOS-UDP.elf  |tee "EOS-UDP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 182621	   3412	3266624	3452657	 34aef1	EOS-UDP.elf
+'Finished building: EOS-UDP.elf.size'
+' '
+
+16:28:13 Build Finished (took 2s.334ms)
+

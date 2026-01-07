@@ -1,0 +1,1938 @@
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:2339:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:2339:7: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:3313:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:3313:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:3327:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:3327:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:3341:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:3341:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:4970:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:4970:7: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15719:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15720:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15721:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15722:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15723:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15753:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15754:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15755:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15756:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15757:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15758:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15759:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15760:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15761:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15762:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15812:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15813:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15814:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15841:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15842:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15843:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15844:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15845:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15846:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15882:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                        ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:15883:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                        ^
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16157:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_61_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16157:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16203:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_117_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16203:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16366:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_289_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16366:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16518:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_449_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16518:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16698:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_629_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16698:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16702:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_633_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16702:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16812:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_743_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16812:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16902:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_840_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16902:7: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16921:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_859_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:16921:7: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17211:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1173_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17211:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17294:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1256_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17294:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17700:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_68_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17700:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17706:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^~~
+                VITIS_LOOP_74_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17706:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17710:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_78_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17710:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17758:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_145_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17758:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17764:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^~~
+                VITIS_LOOP_151_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17764:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17768:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_155_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17768:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17783:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^~~
+        VITIS_LOOP_170_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17783:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17791:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^~~
+                VITIS_LOOP_178_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17791:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17856:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_243_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17856:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17862:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^~~
+                VITIS_LOOP_249_10: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17862:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17866:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_253_11: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17866:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17881:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^~~
+        VITIS_LOOP_268_12: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17881:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17889:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_276_13: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:17889:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18118:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_505_14: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18118:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18124:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^~~
+                VITIS_LOOP_511_15: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18124:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18128:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_515_16: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18128:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18138:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^~~
+        VITIS_LOOP_525_17: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18138:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18142:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^~~
+        VITIS_LOOP_529_18: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18142:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18152:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^~~
+        VITIS_LOOP_539_19: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18152:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18160:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^~~
+                VITIS_LOOP_547_20: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18160:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18521:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_908_21: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18521:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18527:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_914_22: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18527:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18531:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_918_23: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18531:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18647:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_1034_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18647:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18653:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^~~
+                VITIS_LOOP_1040_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18653:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18657:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1044_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18657:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18744:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_1131_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18744:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18750:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^~~
+                VITIS_LOOP_1137_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18750:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18754:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1141_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18754:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18773:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^~~
+        VITIS_LOOP_1160_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18773:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18780:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^~~
+                VITIS_LOOP_1167_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18780:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18896:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_1283_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18896:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18902:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^~~
+                VITIS_LOOP_1289_10: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18902:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18906:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1293_11: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18906:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18926:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1313_12: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18926:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18933:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_1320_13: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:18933:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19195:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_1582_14: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19195:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19201:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^~~
+                VITIS_LOOP_1588_15: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19201:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19205:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1592_16: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19205:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19229:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1616_17: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19229:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19236:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^~~
+                VITIS_LOOP_1623_18: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19236:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19666:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_2053_19: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19666:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19672:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_2059_20: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19672:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19676:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_2063_21: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19676:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19806:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^~~
+            VITIS_LOOP_2193_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19806:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19813:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^~~
+                VITIS_LOOP_2200_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19813:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19817:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2204_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19817:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19864:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^~~
+            VITIS_LOOP_2251_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19864:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19871:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^~~
+                VITIS_LOOP_2258_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19871:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19875:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2262_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19875:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19893:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^~~
+        VITIS_LOOP_2280_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19893:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19948:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^~~
+            VITIS_LOOP_2335_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19948:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19955:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^~~
+                VITIS_LOOP_2342_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19955:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19959:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2346_10: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19959:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19977:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^~~
+        VITIS_LOOP_2364_11: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:19977:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20066:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^~~
+            VITIS_LOOP_2453_12: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20066:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20073:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^~~
+                VITIS_LOOP_2460_13: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20073:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20077:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2464_14: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20077:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20087:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^~~
+        VITIS_LOOP_2474_15: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20087:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20091:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^~~
+        VITIS_LOOP_2478_16: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20091:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20102:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^~~
+        VITIS_LOOP_2489_17: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20102:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20110:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^~~
+                VITIS_LOOP_2497_18: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20110:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20435:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^~~
+            VITIS_LOOP_2822_19: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20435:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20442:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^~~
+                VITIS_LOOP_2829_20: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20442:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20446:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2833_21: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20446:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20534:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^~~
+   VITIS_LOOP_2921_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20534:4: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20541:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^~~
+    VITIS_LOOP_2928_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20541:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20545:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2932_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20545:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20560:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^~~
+  VITIS_LOOP_2947_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20560:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20592:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^~~
+   VITIS_LOOP_2979_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20592:4: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20599:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^~~
+    VITIS_LOOP_2986_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20599:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20603:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2990_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20603:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20618:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^~~
+  VITIS_LOOP_3005_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20618:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20668:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^~~
+   VITIS_LOOP_3055_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20668:4: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20675:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^~~
+    VITIS_LOOP_3062_10: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20675:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20679:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_3066_11: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20679:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20694:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^~~
+  VITIS_LOOP_3081_12: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20694:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20831:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3218_13: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20831:4: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20838:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3225_14: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20838:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20842:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3229_15: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20842:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20857:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^~~
+  VITIS_LOOP_3244_16: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:20857:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21017:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3404_17: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21017:4: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21024:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3411_18: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21024:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21028:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3415_19: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21028:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21743:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_703_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21743:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21961:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_921_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:21961:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:22378:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_1345_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:22378:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:22698:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^~~
+        VITIS_LOOP_240_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:22698:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:22726:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^~~
+        VITIS_LOOP_268_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:22726:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23428:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^~~
+            VITIS_LOOP_48_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23428:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23481:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^~~
+    VITIS_LOOP_109_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23481:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23495:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^~~
+            VITIS_LOOP_123_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23495:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23525:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^~~
+            VITIS_LOOP_153_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23525:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23610:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^~~
+           VITIS_LOOP_281_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23610:12: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23630:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^~~
+               VITIS_LOOP_301_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23630:16: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23644:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^~~
+                   VITIS_LOOP_315_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23644:20: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23737:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^~~
+           VITIS_LOOP_433_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23737:12: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23751:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^~~
+              VITIS_LOOP_447_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23751:15: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23871:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_33_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23871:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23995:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_183_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:23995:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24050:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_248_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24050:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24569:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_16_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24569:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24580:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_27_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24580:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24591:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_38_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24591:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24602:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_49_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24602:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24613:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_60_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24613:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24624:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_71_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24624:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24635:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_82_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24635:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24646:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_93_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:24646:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27006:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^~~
+           VITIS_LOOP_26_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27006:12: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27070:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^~~
+      VITIS_LOOP_40_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27070:7: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27187:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^~~
+        VITIS_LOOP_49_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27187:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27212:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^~~
+    VITIS_LOOP_81_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27212:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27282:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^~~
+       VITIS_LOOP_169_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:27282:8: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29947:5: warning: Added loop label VITIS_LOOP_137_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_137_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29947:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29949:2: warning: Added loop label VITIS_LOOP_139_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS-1; j++) {
+ ^~~
+ VITIS_LOOP_139_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29949:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29971:5: warning: Added loop label VITIS_LOOP_175_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_175_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29971:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29973:2: warning: Added loop label VITIS_LOOP_177_2:   [xilinx-label-all-loops]
+ for(j = COLS-1; j > 0; j--) {
+ ^~~
+ VITIS_LOOP_177_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29973:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29995:5: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_213_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29995:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29997:2: warning: Added loop label VITIS_LOOP_215_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_215_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:29997:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30019:5: warning: Added loop label VITIS_LOOP_251_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_251_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30019:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30021:2: warning: Added loop label VITIS_LOOP_253_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_253_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30021:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30059:5: warning: Added loop label VITIS_LOOP_320_1:   [xilinx-label-all-loops]
+    for(j = 0; j < COLS; j++) {
+    ^~~
+    VITIS_LOOP_320_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30059:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30111:5: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_417_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30111:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30301:5: warning: Added loop label VITIS_LOOP_702_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_702_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30301:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30323:5: warning: Added loop label VITIS_LOOP_742_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_742_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30323:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30371:5: warning: Added loop label VITIS_LOOP_838_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_838_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30371:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30478:5: warning: Added loop label VITIS_LOOP_990_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_990_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30478:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30500:5: warning: Added loop label VITIS_LOOP_1030_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_1030_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30500:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30548:5: warning: Added loop label VITIS_LOOP_1126_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_1126_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30548:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30749:2: warning: Added loop label VITIS_LOOP_232_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_232_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30749:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30770:2: warning: Added loop label VITIS_LOOP_253_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_253_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30770:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30780:5: warning: Added loop label VITIS_LOOP_263_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_263_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30780:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30791:5: warning: Added loop label VITIS_LOOP_274_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_274_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30791:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30802:5: warning: Added loop label VITIS_LOOP_285_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_285_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30802:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30813:5: warning: Added loop label VITIS_LOOP_296_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_296_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30813:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30825:5: warning: Added loop label VITIS_LOOP_308_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_308_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30825:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30836:5: warning: Added loop label VITIS_LOOP_319_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_319_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30836:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30848:5: warning: Added loop label VITIS_LOOP_331_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_331_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30848:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30859:5: warning: Added loop label VITIS_LOOP_342_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_342_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:30859:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31136:2: warning: Added loop label VITIS_LOOP_619_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_619_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31136:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31213:2: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_696_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31213:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31237:2: warning: Added loop label VITIS_LOOP_720_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_720_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31237:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31260:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+    ^~~
+    VITIS_LOOP_743_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31260:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31390:25: warning: Added loop label VITIS_LOOP_208_1:   [xilinx-label-all-loops]
+                        for(int k=0;k<num;k++)
+                        ^~~
+                        VITIS_LOOP_208_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31390:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31526:9: warning: Added loop label VITIS_LOOP_189_1:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T col = 0; col < cols; col++) {
+        ^~~
+        VITIS_LOOP_189_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31526:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31592:9: warning: Added loop label VITIS_LOOP_255_1:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T col = 0; col < cols; col++) {
+        ^~~
+        VITIS_LOOP_255_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:31592:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32496:5: warning: Added loop label VITIS_LOOP_1025_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1025_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32496:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32555:13: warning: Added loop label VITIS_LOOP_1105_1:   [xilinx-label-all-loops]
+            for (HLS_CHANNEL_T k = 0; k < ((((DST_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_1105_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32555:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32571:5: warning: Added loop label VITIS_LOOP_1121_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1121_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32571:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32587:5: warning: Added loop label VITIS_LOOP_1137_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1137_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32587:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32605:5: warning: Added loop label VITIS_LOOP_1155_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1155_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32605:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32643:5: warning: Added loop label VITIS_LOOP_1193_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1193_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32643:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32663:5: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1213_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32663:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32951:13: warning: Added loop label VITIS_LOOP_1508_1:   [xilinx-label-all-loops]
+            for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_1508_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:32951:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33500:21: warning: Added loop label VITIS_LOOP_471_1:   [xilinx-label-all-loops]
+                    for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                    ^~~
+                    VITIS_LOOP_471_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33500:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33513:29: warning: Added loop label VITIS_LOOP_484_2:   [xilinx-label-all-loops]
+                            for(int buf_row=2*K_HEIGHT-1; buf_row>=0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_484_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33513:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33522:29: warning: Added loop label VITIS_LOOP_493_3:   [xilinx-label-all-loops]
+                            for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                            ^~~
+                            VITIS_LOOP_493_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33522:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33523:33: warning: Added loop label VITIS_LOOP_494_4:   [xilinx-label-all-loops]
+                                for(int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                                ^~~
+                                VITIS_LOOP_494_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33523:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33531:29: warning: Added loop label VITIS_LOOP_502_5:   [xilinx-label-all-loops]
+                            for(int buf_row=2*K_HEIGHT-1; buf_row>0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_502_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33531:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33545:21: warning: Added loop label VITIS_LOOP_516_6:   [xilinx-label-all-loops]
+                    for(int buf_row=0; buf_row<K_HEIGHT; buf_row++){
+                    ^~~
+                    VITIS_LOOP_516_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33545:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33681:25: warning: Added loop label VITIS_LOOP_652_1:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_652_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33681:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33685:25: warning: Added loop label VITIS_LOOP_656_2:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>=0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_656_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33685:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33692:29: warning: Added loop label VITIS_LOOP_663_3:   [xilinx-label-all-loops]
+                            for(int buf_row=K_HEIGHT-1; buf_row>0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_663_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33692:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33709:25: warning: Added loop label VITIS_LOOP_680_4:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>=0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_680_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33709:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33710:29: warning: Added loop label VITIS_LOOP_681_5:   [xilinx-label-all-loops]
+                            for(int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                            ^~~
+                            VITIS_LOOP_681_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33710:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33812:17: warning: Added loop label VITIS_LOOP_783_1:   [xilinx-label-all-loops]
+                for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                ^~~
+                VITIS_LOOP_783_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33812:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33822:21: warning: Added loop label VITIS_LOOP_793_2:   [xilinx-label-all-loops]
+                    for(int buf_row=2*K_HEIGHT-1; buf_row>=0; buf_row--) {
+                    ^~~
+                    VITIS_LOOP_793_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33822:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33829:21: warning: Added loop label VITIS_LOOP_800_3:   [xilinx-label-all-loops]
+                    for(int buf_row=2*K_HEIGHT-1; buf_row>0; buf_row--) {
+                    ^~~
+                    VITIS_LOOP_800_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33829:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33839:17: warning: Added loop label VITIS_LOOP_810_4:   [xilinx-label-all-loops]
+                for(int buf_row=0; buf_row<K_HEIGHT; buf_row++){
+                ^~~
+                VITIS_LOOP_810_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33839:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33965:17: warning: Added loop label VITIS_LOOP_936_1:   [xilinx-label-all-loops]
+                for (int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                ^~~
+                VITIS_LOOP_936_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33965:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33987:17: warning: Added loop label VITIS_LOOP_958_2:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<2*K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_958_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33987:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33993:17: warning: Added loop label VITIS_LOOP_964_3:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_964_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:33993:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34113:17: warning: Added loop label VITIS_LOOP_1084_1:   [xilinx-label-all-loops]
+                for(int buf_col=K_WIDTH-1; buf_col>=1; buf_col--) {
+                ^~~
+                VITIS_LOOP_1084_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34113:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34118:21: warning: Added loop label VITIS_LOOP_1089_2:   [xilinx-label-all-loops]
+                    for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--) {
+                    ^~~
+                    VITIS_LOOP_1089_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34118:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34146:17: warning: Added loop label VITIS_LOOP_1117_3:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_1117_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34146:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34554:2: warning: Added loop label VITIS_LOOP_1525_1:   [xilinx-label-all-loops]
+ for(int i=0; i<CN1; i++) {
+ ^~~
+ VITIS_LOOP_1525_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34554:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34563:2: warning: Added loop label VITIS_LOOP_1534_1:   [xilinx-label-all-loops]
+ for(int i=0; i<CN1; i++) {
+ ^~~
+ VITIS_LOOP_1534_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:34563:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35124:5: warning: Added loop label VITIS_LOOP_2095_1:   [xilinx-label-all-loops]
+    for (i=0; i<NPHASES; i++) {
+    ^~~
+    VITIS_LOOP_2095_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35124:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35131:5: warning: Added loop label VITIS_LOOP_2102_2:   [xilinx-label-all-loops]
+    for (i = 0; i < NPHASES; i++) {
+    ^~~
+    VITIS_LOOP_2102_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35131:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35132:9: warning: Added loop label VITIS_LOOP_2103_3:   [xilinx-label-all-loops]
+        for (j = 0; j < NTAPS; j++) {
+        ^~~
+        VITIS_LOOP_2103_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35132:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35275:27: warning: Added loop label VITIS_LOOP_2246_1:   [xilinx-label-all-loops]
+                          for (int m = 0; m < ((((T) & ((512 - 1) << 11)) >> 11) + 1); m++)
+                          ^~~
+                          VITIS_LOOP_2246_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35275:27: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35282:15: warning: Added loop label VITIS_LOOP_2253_2:   [xilinx-label-all-loops]
+              for (int i = 0; i < NTAPS; i++) {
+              ^~~
+              VITIS_LOOP_2253_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35282:15: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35288:23: warning: Added loop label VITIS_LOOP_2259_3:   [xilinx-label-all-loops]
+                      for (int i = NTAPS - 1; i > 0; i--) {
+                      ^~~
+                      VITIS_LOOP_2259_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35288:23: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35302:23: warning: Added loop label VITIS_LOOP_2273_4:   [xilinx-label-all-loops]
+                      for (int i = NTAPS - 1; i >= 0; i--) {
+                      ^~~
+                      VITIS_LOOP_2273_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35302:23: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35313:15: warning: Added loop label VITIS_LOOP_2284_5:   [xilinx-label-all-loops]
+              for (int i = 0; i < NTAPS; i++) {
+              ^~~
+              VITIS_LOOP_2284_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35313:15: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35358:5: warning: Added loop label VITIS_LOOP_2329_1:   [xilinx-label-all-loops]
+    for(short i= 0;i<rows;i++) {
+    ^~~
+    VITIS_LOOP_2329_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35358:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35359:9: warning: Added loop label VITIS_LOOP_2330_2:   [xilinx-label-all-loops]
+        for(short j= 0;j<cols;j++) {
+        ^~~
+        VITIS_LOOP_2330_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35359:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35439:17: warning: Added loop label VITIS_LOOP_2410_3:   [xilinx-label-all-loops]
+                for(int r= 0;r<2;r++)
+                ^~~
+                VITIS_LOOP_2410_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35439:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35463:21: warning: Added loop label VITIS_LOOP_2434_4:   [xilinx-label-all-loops]
+                    for(int r= 0;r<2;r++)
+                    ^~~
+                    VITIS_LOOP_2434_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35463:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35473:17: warning: Added loop label VITIS_LOOP_2444_5:   [xilinx-label-all-loops]
+                for(int k=0;k<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1);k++)
+                ^~~
+                VITIS_LOOP_2444_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35473:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35591:5: warning: Added loop label VITIS_LOOP_2562_1:   [xilinx-label-all-loops]
+    for(int k=0; k<2; k++)
+    ^~~
+    VITIS_LOOP_2562_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35591:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35608:13: warning: Added loop label VITIS_LOOP_2579_2:   [xilinx-label-all-loops]
+            for(int i=0; i<SIZE; i++)
+            ^~~
+            VITIS_LOOP_2579_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35608:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35611:13: warning: Added loop label VITIS_LOOP_2582_3:   [xilinx-label-all-loops]
+            for(int i=0; i<SIZE-order-1; i++)
+            ^~~
+            VITIS_LOOP_2582_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35611:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35614:17: warning: Added loop label VITIS_LOOP_2585_4:   [xilinx-label-all-loops]
+                for(int j = 1; j <= SIZE; j++ )
+                ^~~
+                VITIS_LOOP_2585_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35614:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35622:13: warning: Added loop label VITIS_LOOP_2593_5:   [xilinx-label-all-loops]
+            for(int i = 0; i < order; i++ )
+            ^~~
+            VITIS_LOOP_2593_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35622:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35625:17: warning: Added loop label VITIS_LOOP_2596_6:   [xilinx-label-all-loops]
+                for(int j = 1; j <= SIZE; j++ )
+                ^~~
+                VITIS_LOOP_2596_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35625:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35634:9: warning: Added loop label VITIS_LOOP_2605_7:   [xilinx-label-all-loops]
+        for(int i=0; i<SIZE; i++) {
+        ^~~
+        VITIS_LOOP_2605_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35634:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35642:5: warning: Added loop label VITIS_LOOP_2613_8:   [xilinx-label-all-loops]
+    for(int i=0; i<SIZE; i++) {
+    ^~~
+    VITIS_LOOP_2613_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35642:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35643:9: warning: Added loop label VITIS_LOOP_2614_9:   [xilinx-label-all-loops]
+        for(int j=0; j<SIZE; j++) {
+        ^~~
+        VITIS_LOOP_2614_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35643:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35693:6: warning: Added loop label VITIS_LOOP_2664_1:   [xilinx-label-all-loops]
+     for (int i = 0; i < KH; i++) {
+     ^~~
+     VITIS_LOOP_2664_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35693:6: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35694:13: warning: Added loop label VITIS_LOOP_2665_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < KW; j++) {
+            ^~~
+            VITIS_LOOP_2665_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35694:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35702:6: warning: Added loop label VITIS_LOOP_2673_3:   [xilinx-label-all-loops]
+     for (int i = 0; i < KH; i++) {
+     ^~~
+     VITIS_LOOP_2673_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35702:6: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35703:10: warning: Added loop label VITIS_LOOP_2674_4:   [xilinx-label-all-loops]
+         for (int j = 0; j < KW; j++) {
+         ^~~
+         VITIS_LOOP_2674_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35703:10: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35745:5: warning: Added loop label VITIS_LOOP_2716_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < KW; i++) {
+    ^~~
+    VITIS_LOOP_2716_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35745:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35749:5: warning: Added loop label VITIS_LOOP_2720_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < KH; i++) {
+    ^~~
+    VITIS_LOOP_2720_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35749:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35803:5: warning: Added loop label VITIS_LOOP_2774_1:   [xilinx-label-all-loops]
+    for(int i=0; i<5; i++)
+    ^~~
+    VITIS_LOOP_2774_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35803:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35804:9: warning: Added loop label VITIS_LOOP_2775_2:   [xilinx-label-all-loops]
+        for(int j=0; j<5; j++)
+        ^~~
+        VITIS_LOOP_2775_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35804:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35863:25: warning: Added loop label VITIS_LOOP_2834_1:   [xilinx-label-all-loops]
+                        for(int row= 0;row<K_HEIGHT;row++)
+                        ^~~
+                        VITIS_LOOP_2834_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35863:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35864:29: warning: Added loop label VITIS_LOOP_2835_2:   [xilinx-label-all-loops]
+                            for(int col= K_WIDTH-1;col>=1;col--)
+                            ^~~
+                            VITIS_LOOP_2835_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35864:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35867:25: warning: Added loop label VITIS_LOOP_2838_3:   [xilinx-label-all-loops]
+                        for(int buf_row = 0; buf_row < K_HEIGHT; buf_row++)
+                        ^~~
+                        VITIS_LOOP_2838_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35867:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35879:33: warning: Added loop label VITIS_LOOP_2850_4:   [xilinx-label-all-loops]
+                                for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                                ^~~
+                                VITIS_LOOP_2850_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35879:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35890:37: warning: Added loop label VITIS_LOOP_2861_5:   [xilinx-label-all-loops]
+                                    for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                                    ^~~
+                                    VITIS_LOOP_2861_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35890:37: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35906:33: warning: Added loop label VITIS_LOOP_2877_6:   [xilinx-label-all-loops]
+                                for(int buf_row = 0;buf_row < K_HEIGHT; buf_row++)
+                                ^~~
+                                VITIS_LOOP_2877_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35906:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35912:33: warning: Added loop label VITIS_LOOP_2883_7:   [xilinx-label-all-loops]
+                                for(int buf_row= 0;buf_row < K_HEIGHT; buf_row++)
+                                ^~~
+                                VITIS_LOOP_2883_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35912:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35918:36: warning: Added loop label VITIS_LOOP_2889_8:   [xilinx-label-all-loops]
+                                   for(int buf_row= K_HEIGHT-1;buf_row>0;buf_row--)
+                                   ^~~
+                                   VITIS_LOOP_2889_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35918:36: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35930:29: warning: Added loop label VITIS_LOOP_2901_9:   [xilinx-label-all-loops]
+                            for(int buf_row= 0;buf_row<K_HEIGHT;buf_row++)
+                            ^~~
+                            VITIS_LOOP_2901_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35930:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35944:33: warning: Added loop label VITIS_LOOP_2915_10:   [xilinx-label-all-loops]
+                                for(int buf_row= K_HEIGHT-1;buf_row>0;buf_row--)
+                                ^~~
+                                VITIS_LOOP_2915_10: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35944:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35958:33: warning: Added loop label VITIS_LOOP_2929_11:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT; m++)
+                                ^~~
+                                VITIS_LOOP_2929_11: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35958:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35959:37: warning: Added loop label VITIS_LOOP_2930_12:   [xilinx-label-all-loops]
+                                    for(int n=0; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2930_12: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35959:37: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35964:33: warning: Added loop label VITIS_LOOP_2935_13:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT; m++)
+                                ^~~
+                                VITIS_LOOP_2935_13: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35964:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35965:37: warning: Added loop label VITIS_LOOP_2936_14:   [xilinx-label-all-loops]
+                                    for(int n=1; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2936_14: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35965:37: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35972:33: warning: Added loop label VITIS_LOOP_2943_15:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT-1; m++)
+                                ^~~
+                                VITIS_LOOP_2943_15: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35972:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35973:37: warning: Added loop label VITIS_LOOP_2944_16:   [xilinx-label-all-loops]
+                                    for(int n=0; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2944_16: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35973:37: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35979:33: warning: Added loop label VITIS_LOOP_2950_17:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT-1; m++)
+                                ^~~
+                                VITIS_LOOP_2950_17: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35979:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35980:37: warning: Added loop label VITIS_LOOP_2951_18:   [xilinx-label-all-loops]
+                                    for(int n=1; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2951_18: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:35980:37: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36063:21: warning: Added loop label VITIS_LOOP_3034_1:   [xilinx-label-all-loops]
+                    for(int row= 0;row<K_HEIGHT;row++)
+                    ^~~
+                    VITIS_LOOP_3034_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36063:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36064:25: warning: Added loop label VITIS_LOOP_3035_2:   [xilinx-label-all-loops]
+                        for(int col= K_WIDTH-1;col>=1;col--)
+                        ^~~
+                        VITIS_LOOP_3035_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36064:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36067:21: warning: Added loop label VITIS_LOOP_3038_3:   [xilinx-label-all-loops]
+                    for(int buf_row = 0; buf_row < K_HEIGHT; buf_row++)
+                    ^~~
+                    VITIS_LOOP_3038_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36067:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36084:29: warning: Added loop label VITIS_LOOP_3055_4:   [xilinx-label-all-loops]
+                            for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                            ^~~
+                            VITIS_LOOP_3055_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36084:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36100:29: warning: Added loop label VITIS_LOOP_3071_5:   [xilinx-label-all-loops]
+                            for(int buf_row = 0;buf_row < K_HEIGHT; buf_row++)
+                            ^~~
+                            VITIS_LOOP_3071_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36100:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36107:29: warning: Added loop label VITIS_LOOP_3078_6:   [xilinx-label-all-loops]
+                            for(int buf_row= 0;buf_row < K_HEIGHT; buf_row++)
+                            ^~~
+                            VITIS_LOOP_3078_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36107:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36119:25: warning: Added loop label VITIS_LOOP_3090_7:   [xilinx-label-all-loops]
+                        for(int buf_row= 0;buf_row<K_HEIGHT;buf_row++)
+                        ^~~
+                        VITIS_LOOP_3090_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36119:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36138:29: warning: Added loop label VITIS_LOOP_3109_8:   [xilinx-label-all-loops]
+                            for(int m=0; m<K_HEIGHT; m++)
+                            ^~~
+                            VITIS_LOOP_3109_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36138:29: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36139:33: warning: Added loop label VITIS_LOOP_3110_9:   [xilinx-label-all-loops]
+                                for(int n=0; n<K_WIDTH; n++)
+                                ^~~
+                                VITIS_LOOP_3110_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36139:33: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36187:5: warning: Added loop label VITIS_LOOP_77_1:   [xilinx-label-all-loops]
+    for(int i=0;i<NUM_STATES;i++) {
+    ^~~
+    VITIS_LOOP_77_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36187:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36193:5: warning: Added loop label VITIS_LOOP_83_2:   [xilinx-label-all-loops]
+    for(int i=0;i<N;i++)
+    ^~~
+    VITIS_LOOP_83_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36193:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36214:13: warning: Added loop label VITIS_LOOP_104_3:   [xilinx-label-all-loops]
+            for (int m=0; m<NUM_STATES; m++) {
+            ^~~
+            VITIS_LOOP_104_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36214:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36226:13: warning: Added loop label VITIS_LOOP_116_4:   [xilinx-label-all-loops]
+            for (int m=NUM_STATES-1; m>0; m--) {
+            ^~~
+            VITIS_LOOP_116_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36226:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36266:5: warning: Added loop label VITIS_LOOP_156_5:   [xilinx-label-all-loops]
+    for (int m=0; m<NUM_STATES/2; m++) {
+    ^~~
+    VITIS_LOOP_156_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36266:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36325:5: warning: Added loop label VITIS_LOOP_69_1:   [xilinx-label-all-loops]
+    for(int index=0;index<K;index++) {
+    ^~~
+    VITIS_LOOP_69_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36325:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36374:9: warning: Added loop label VITIS_LOOP_118_1:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-1;i++) {
+        ^~~
+        VITIS_LOOP_118_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36374:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36378:9: warning: Added loop label VITIS_LOOP_122_2:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-3;i++) {
+        ^~~
+        VITIS_LOOP_122_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36378:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36383:9: warning: Added loop label VITIS_LOOP_127_3:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-7;i++) {
+        ^~~
+        VITIS_LOOP_127_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36383:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36394:5: warning: Added loop label VITIS_LOOP_138_4:   [xilinx-label-all-loops]
+    for(int i=0;i<PSize;i+=2) {
+    ^~~
+    VITIS_LOOP_138_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36394:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36399:13: warning: Added loop label VITIS_LOOP_143_5:   [xilinx-label-all-loops]
+            for(int j=1;j<PSize/2+1;j++) {
+            ^~~
+            VITIS_LOOP_143_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36399:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36407:5: warning: Added loop label VITIS_LOOP_151_6:   [xilinx-label-all-loops]
+    for(int i=0;i<PSize;i+=2) {
+    ^~~
+    VITIS_LOOP_151_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36407:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36412:13: warning: Added loop label VITIS_LOOP_156_7:   [xilinx-label-all-loops]
+            for(int j=1;j<PSize/2+1;j++) {
+            ^~~
+            VITIS_LOOP_156_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36412:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36438:5: warning: Added loop label VITIS_LOOP_182_1:   [xilinx-label-all-loops]
+    for(int c=1;c<PSize+PSize/2+1;c++)
+    ^~~
+    VITIS_LOOP_182_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36438:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36465:5: warning: Added loop label VITIS_LOOP_209_1:   [xilinx-label-all-loops]
+    for(int k=0;k<3;k++) {
+    ^~~
+    VITIS_LOOP_209_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36465:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36471:5: warning: Added loop label VITIS_LOOP_215_2:   [xilinx-label-all-loops]
+    for(int k=0;k<3;k++) {
+    ^~~
+    VITIS_LOOP_215_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36471:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36520:17: warning: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
+                for(int r= 0;r<KERNEL_SIZE;r++) {
+                ^~~
+                VITIS_LOOP_264_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36520:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36521:21: warning: Added loop label VITIS_LOOP_265_2:   [xilinx-label-all-loops]
+                    for(int c=0;c<KERNEL_SIZE-1;c++) {
+                    ^~~
+                    VITIS_LOOP_265_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36521:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36526:17: warning: Added loop label VITIS_LOOP_270_3:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KERNEL_SIZE-1;buf_row++) {
+                ^~~
+                VITIS_LOOP_270_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36526:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36536:13: warning: Added loop label VITIS_LOOP_280_4:   [xilinx-label-all-loops]
+            for(int r= 0;r<3;r++)
+            ^~~
+            VITIS_LOOP_280_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36536:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36538:17: warning: Added loop label VITIS_LOOP_282_5:   [xilinx-label-all-loops]
+                for(int c=0;c<3-1;c++)
+                ^~~
+                VITIS_LOOP_282_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36538:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36544:13: warning: Added loop label VITIS_LOOP_288_6:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row< 3-1;buf_row++)
+            ^~~
+            VITIS_LOOP_288_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36544:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36636:17: warning: Added loop label VITIS_LOOP_380_1:   [xilinx-label-all-loops]
+                for(int r= 0;r<KERNEL_SIZE;r++) {
+                ^~~
+                VITIS_LOOP_380_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36636:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36637:21: warning: Added loop label VITIS_LOOP_381_2:   [xilinx-label-all-loops]
+                    for(int c=0;c<KERNEL_SIZE-1;c++) {
+                    ^~~
+                    VITIS_LOOP_381_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36637:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36642:17: warning: Added loop label VITIS_LOOP_386_3:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KERNEL_SIZE-1;buf_row++) {
+                ^~~
+                VITIS_LOOP_386_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36642:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36652:13: warning: Added loop label VITIS_LOOP_396_4:   [xilinx-label-all-loops]
+            for(int r= 0;r<3;r++)
+            ^~~
+            VITIS_LOOP_396_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36652:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36654:17: warning: Added loop label VITIS_LOOP_398_5:   [xilinx-label-all-loops]
+                for(int c=0;c<3-1;c++)
+                ^~~
+                VITIS_LOOP_398_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36654:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36660:13: warning: Added loop label VITIS_LOOP_404_6:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row< 3-1;buf_row++)
+            ^~~
+            VITIS_LOOP_404_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36660:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36771:5: warning: Added loop label VITIS_LOOP_104_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++)
+    ^~~
+    VITIS_LOOP_104_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36771:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36775:5: warning: Added loop label VITIS_LOOP_108_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_108_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36775:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36777:9: warning: Added loop label VITIS_LOOP_110_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) {
+        ^~~
+        VITIS_LOOP_110_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36777:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36783:5: warning: Added loop label VITIS_LOOP_116_4:   [xilinx-label-all-loops]
+    for (int j = 0; j < N; j++) {
+    ^~~
+    VITIS_LOOP_116_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36783:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36784:9: warning: Added loop label VITIS_LOOP_117_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < j; i++) {
+        ^~~
+        VITIS_LOOP_117_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36784:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36786:13: warning: Added loop label VITIS_LOOP_119_6:   [xilinx-label-all-loops]
+            for (int k = 0; k < i; k++) sum -= A[i][k] * A[k][j];
+            ^~~
+            VITIS_LOOP_119_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36786:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36790:9: warning: Added loop label VITIS_LOOP_123_7:   [xilinx-label-all-loops]
+        for (int i = j; i < N; i++) {
+        ^~~
+        VITIS_LOOP_123_7: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36790:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36792:13: warning: Added loop label VITIS_LOOP_125_8:   [xilinx-label-all-loops]
+            for (int k = 0; k < j; k++) sum -= A[i][k] * A[k][j];
+            ^~~
+            VITIS_LOOP_125_8: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36792:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36801:13: warning: Added loop label VITIS_LOOP_134_9:   [xilinx-label-all-loops]
+            for (int i = 0; i < N; i++) {
+            ^~~
+            VITIS_LOOP_134_9: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36801:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36813:13: warning: Added loop label VITIS_LOOP_146_10:   [xilinx-label-all-loops]
+            for (int i = j + 1; i < N; i++) A[i][j] *= dum;
+            ^~~
+            VITIS_LOOP_146_10: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36813:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36821:5: warning: Added loop label VITIS_LOOP_154_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_154_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36821:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36830:13: warning: Added loop label VITIS_LOOP_163_2:   [xilinx-label-all-loops]
+            for (int j = ii - 1; j < i; j++) sum -= A[i][j] * b[j];
+            ^~~
+            VITIS_LOOP_163_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36830:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36835:5: warning: Added loop label VITIS_LOOP_168_3:   [xilinx-label-all-loops]
+    for (int i = N - 1; i >= 0; i--) {
+    ^~~
+    VITIS_LOOP_168_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36835:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36837:9: warning: Added loop label VITIS_LOOP_170_4:   [xilinx-label-all-loops]
+        for (int j = i + 1; j < N; j++) sum -= A[i][j]*b[j];
+        ^~~
+        VITIS_LOOP_170_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36837:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36848:5: warning: Added loop label VITIS_LOOP_181_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_181_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36848:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36853:5: warning: Added loop label VITIS_LOOP_186_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_186_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36853:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36854:9: warning: Added loop label VITIS_LOOP_187_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) b[j] = 0;
+        ^~~
+        VITIS_LOOP_187_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36854:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36857:9: warning: Added loop label VITIS_LOOP_190_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) Ar[j][i] = b[j];
+        ^~~
+        VITIS_LOOP_190_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36857:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36933:21: warning: Added loop label VITIS_LOOP_266_1:   [xilinx-label-all-loops]
+                    for(int k=0;k<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1);k++) {
+                    ^~~
+                    VITIS_LOOP_266_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:36933:21: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37053:17: warning: Added loop label VITIS_LOOP_398_1:   [xilinx-label-all-loops]
+                for(int k = 0; k < ((((DST_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+                ^~~
+                VITIS_LOOP_398_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37053:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37471:2: warning: Added loop label VITIS_LOOP_215_1:   [xilinx-label-all-loops]
+ for(int row=2;row>=0;row--)
+ ^~~
+ VITIS_LOOP_215_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37471:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37473:17: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+                for(int col=2;col>=1;col--)
+                ^~~
+                VITIS_LOOP_217_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37473:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37606:5: warning: Added loop label VITIS_LOOP_104_1:   [xilinx-label-all-loops]
+    for(int i=0;i<KH;i++) {
+    ^~~
+    VITIS_LOOP_104_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37606:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37607:9: warning: Added loop label VITIS_LOOP_105_2:   [xilinx-label-all-loops]
+        for(int j=0;j<KW;j++) {
+        ^~~
+        VITIS_LOOP_105_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37607:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37629:5: warning: Added loop label VITIS_LOOP_127_1:   [xilinx-label-all-loops]
+    for(HLS_SIZE_T i=0;i<rows+ioffset;i++)
+    ^~~
+    VITIS_LOOP_127_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37629:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37632:2: warning: Added loop label VITIS_LOOP_130_2:   [xilinx-label-all-loops]
+ for(HLS_SIZE_T j=0;j<cols+joffset;j++)
+ ^~~
+ VITIS_LOOP_130_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37632:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37639:13: warning: Added loop label VITIS_LOOP_137_3:   [xilinx-label-all-loops]
+            for(int r= 0;r<KH;r++)
+            ^~~
+            VITIS_LOOP_137_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37639:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37641:17: warning: Added loop label VITIS_LOOP_139_4:   [xilinx-label-all-loops]
+                for(int c=0;c<KW-1;c++)
+                ^~~
+                VITIS_LOOP_139_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37641:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37649:17: warning: Added loop label VITIS_LOOP_147_5:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KH-1;buf_row++)
+                ^~~
+                VITIS_LOOP_147_5: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37649:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37662:17: warning: Added loop label VITIS_LOOP_160_6:   [xilinx-label-all-loops]
+                for(int i= 1;i< KW;i++)
+                ^~~
+                VITIS_LOOP_160_6: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37662:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37698:5: warning: Added loop label VITIS_LOOP_196_1:   [xilinx-label-all-loops]
+    for(HLS_SIZE_T i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_196_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37698:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37701:2: warning: Added loop label VITIS_LOOP_199_2:   [xilinx-label-all-loops]
+ for(HLS_SIZE_T j=0;j<cols;j++)
+ ^~~
+ VITIS_LOOP_199_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37701:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37930:9: warning: Added loop label VITIS_LOOP_148_1:   [xilinx-label-all-loops]
+        for(int i=0;i<STAGE;i++)
+        ^~~
+        VITIS_LOOP_148_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37930:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37938:9: warning: Added loop label VITIS_LOOP_156_2:   [xilinx-label-all-loops]
+        for(int i=0;i<CLASSIFIER_ALL;i++)
+        ^~~
+        VITIS_LOOP_156_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37938:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37941:16: warning: Added loop label VITIS_LOOP_159_3:   [xilinx-label-all-loops]
+               for(int j=0;j<FEATURE_MAX;j++)
+               ^~~
+               VITIS_LOOP_159_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37941:16: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37949:23: warning: Added loop label VITIS_LOOP_167_4:   [xilinx-label-all-loops]
+                      for(int n=0;n<3;n++)
+                      ^~~
+                      VITIS_LOOP_167_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37949:23: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37972:5: warning: Added loop label VITIS_LOOP_190_1:   [xilinx-label-all-loops]
+    for(int j=0;j<COLS;j++)
+    ^~~
+    VITIS_LOOP_190_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37972:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37975:9: warning: Added loop label VITIS_LOOP_193_2:   [xilinx-label-all-loops]
+        for(int i=0;i<ROWS;i++)
+        ^~~
+        VITIS_LOOP_193_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37975:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37992:5: warning: Added loop label VITIS_LOOP_210_1:   [xilinx-label-all-loops]
+    for(m=0;m<FEATURE_MAX;m++)
+    ^~~
+    VITIS_LOOP_210_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37992:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37999:13: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+            for(int j=1;j<3;j++)
+            ^~~
+            VITIS_LOOP_217_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:37999:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38028:5: warning: Added loop label VITIS_LOOP_246_1:   [xilinx-label-all-loops]
+    for (int i=0;i<CLASSIFIER_ALL;i++)
+    ^~~
+    VITIS_LOOP_246_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38028:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38076:5: warning: Added loop label VITIS_LOOP_294_1:   [xilinx-label-all-loops]
+    for(int i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_294_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38076:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38078:9: warning: Added loop label VITIS_LOOP_296_2:   [xilinx-label-all-loops]
+        for(int j=0;j<cols;j++)
+        ^~~
+        VITIS_LOOP_296_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38078:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38091:13: warning: Added loop label VITIS_LOOP_309_3:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row<K_H;buf_row++)
+            ^~~
+            VITIS_LOOP_309_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38091:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38191:9: warning: Added loop label VITIS_LOOP_430_1:   [xilinx-label-all-loops]
+        for(int i=0;i<m;i++)
+        ^~~
+        VITIS_LOOP_430_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38191:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38193:17: warning: Added loop label VITIS_LOOP_432_2:   [xilinx-label-all-loops]
+                for(int j=0;j<num;j++)
+                ^~~
+                VITIS_LOOP_432_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38193:17: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38201:9: warning: Added loop label VITIS_LOOP_440_3:   [xilinx-label-all-loops]
+        for(int i=0;i<num;i++)
+        ^~~
+        VITIS_LOOP_440_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38201:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38230:5: warning: Added loop label VITIS_LOOP_469_1:   [xilinx-label-all-loops]
+    for(int i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_469_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38230:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38235:9: warning: Added loop label VITIS_LOOP_474_2:   [xilinx-label-all-loops]
+        for(int j=0;j<cols;j++)
+        ^~~
+        VITIS_LOOP_474_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38235:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38397:13: warning: Added loop label VITIS_LOOP_189_1:   [xilinx-label-all-loops]
+            for (int i = 0; i< PWSIZE; i++) {
+            ^~~
+            VITIS_LOOP_189_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38397:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38403:13: warning: Added loop label VITIS_LOOP_195_2:   [xilinx-label-all-loops]
+            for (int i = 0; i < PWSIZE; i++) {
+            ^~~
+            VITIS_LOOP_195_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38403:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38407:13: warning: Added loop label VITIS_LOOP_199_3:   [xilinx-label-all-loops]
+            for (int j = PWSIZE-1; j > 0; j--) {
+            ^~~
+            VITIS_LOOP_199_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38407:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38438:5: warning: Added loop label VITIS_LOOP_230_1:   [xilinx-label-all-loops]
+    for (HLS_SIZE_T i = 0; i < rows; i++) {
+    ^~~
+    VITIS_LOOP_230_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38438:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38439:9: warning: Added loop label VITIS_LOOP_231_2:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T j = 0; j < cols; j++) {
+        ^~~
+        VITIS_LOOP_231_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38439:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38442:13: warning: Added loop label VITIS_LOOP_234_3:   [xilinx-label-all-loops]
+            for (HLS_SIZE_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_234_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38442:13: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38478:5: warning: Added loop label VITIS_LOOP_270_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < WSIZE; i++) {
+    ^~~
+    VITIS_LOOP_270_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38478:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38496:5: warning: Added loop label VITIS_LOOP_288_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < WSIZE; i++) {
+    ^~~
+    VITIS_LOOP_288_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38496:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38504:5: warning: Added loop label VITIS_LOOP_296_2:   [xilinx-label-all-loops]
+    for (int j = WSIZE-1; j > 0; j--) {
+    ^~~
+    VITIS_LOOP_296_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38504:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38522:9: warning: Added loop label VITIS_LOOP_314_1:   [xilinx-label-all-loops]
+        for(int i = 0; i < SIZE/2; i++) {
+        ^~~
+        VITIS_LOOP_314_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38522:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38525:9: warning: Added loop label VITIS_LOOP_317_2:   [xilinx-label-all-loops]
+        for(int i = 0; i < SIZE-SIZE/2; i++) {
+        ^~~
+        VITIS_LOOP_317_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38525:9: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38629:25: warning: Added loop label VITIS_LOOP_421_1:   [xilinx-label-all-loops]
+                        for (int i = 0; i < WSIZE; i++) {
+                        ^~~
+                        VITIS_LOOP_421_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:38629:25: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41391:2: warning: Added loop label VITIS_LOOP_563_1:   [xilinx-label-all-loops]
+ for (y = 0; y < loopHeight; ++y)
+ ^~~
+ VITIS_LOOP_563_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41391:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41393:3: warning: Added loop label VITIS_LOOP_565_2:   [xilinx-label-all-loops]
+  for (x = 0; x < loopWidth; x += 1)
+  ^~~
+  VITIS_LOOP_565_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41393:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41584:2: warning: Added loop label VITIS_LOOP_772_1:   [xilinx-label-all-loops]
+ for (y = 0; y < loopHeight; ++y)
+ ^~~
+ VITIS_LOOP_772_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41584:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41586:3: warning: Added loop label VITIS_LOOP_774_2:   [xilinx-label-all-loops]
+  for (x = 0; x < loopWidth; x += 1)
+  ^~~
+  VITIS_LOOP_774_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41586:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41673:5: warning: Added loop label VITIS_LOOP_869_1:   [xilinx-label-all-loops]
+    for (int l = 0; l < 1; l++)
+    ^~~
+    VITIS_LOOP_869_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41673:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41675:6: warning: Added loop label VITIS_LOOP_871_2:   [xilinx-label-all-loops]
+     for (int k = 0; k < 3; k++)
+     ^~~
+     VITIS_LOOP_871_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41675:6: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41744:2: warning: Added loop label VITIS_LOOP_979_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < rows; i++)
+ ^~~
+ VITIS_LOOP_979_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41744:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41746:3: warning: Added loop label VITIS_LOOP_981_2:   [xilinx-label-all-loops]
+  for (int j = 0; j < cols / 1; j++)
+  ^~~
+  VITIS_LOOP_981_2: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41746:3: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41776:4: warning: Added loop label VITIS_LOOP_1011_3:   [xilinx-label-all-loops]
+   for (int l = 0; l < 1; l++)
+   ^~~
+   VITIS_LOOP_1011_3: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41776:4: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41778:5: warning: Added loop label VITIS_LOOP_1013_4:   [xilinx-label-all-loops]
+    for (int k = 0; k < 3; k++)
+    ^~~
+    VITIS_LOOP_1013_4: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41778:5: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41840:2: warning: Added loop label VITIS_LOOP_1075_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1075_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41840:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41868:2: warning: Added loop label VITIS_LOOP_1103_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1103_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41868:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41883:2: warning: Added loop label VITIS_LOOP_1118_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1118_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41883:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41898:2: warning: Added loop label VITIS_LOOP_1133_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1133_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41898:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41919:2: warning: Added loop label VITIS_LOOP_1154_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1154_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41919:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41940:2: warning: Added loop label VITIS_LOOP_1175_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1175_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41940:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41961:2: warning: Added loop label VITIS_LOOP_1196_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1196_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41961:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41983:2: warning: Added loop label VITIS_LOOP_1218_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1218_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:41983:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42008:2: warning: Added loop label VITIS_LOOP_1243_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1243_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42008:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42042:2: warning: Added loop label VITIS_LOOP_1277_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1277_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42042:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42114:2: warning: Added loop label VITIS_LOOP_1349_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1349_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42114:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42161:2: warning: Added loop label VITIS_LOOP_1396_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1396_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42161:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42230:2: warning: Added loop label VITIS_LOOP_1465_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1465_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42230:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42300:2: warning: Added loop label VITIS_LOOP_1535_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1535_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42300:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42343:2: warning: Added loop label VITIS_LOOP_1578_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1578_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42343:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42400:2: warning: Added loop label VITIS_LOOP_1635_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1635_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42400:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42441:2: warning: Added loop label VITIS_LOOP_1724_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1724_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42441:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42478:2: warning: Added loop label VITIS_LOOP_1761_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1761_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42478:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42550:2: warning: Added loop label VITIS_LOOP_1833_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1833_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42550:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42647:2: warning: Added loop label VITIS_LOOP_1930_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1930_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42647:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42678:2: warning: Added loop label VITIS_LOOP_1961_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1961_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42678:2: note: FIX-IT applied suggested code changes
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42704:2: warning: Added loop label VITIS_LOOP_1987_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < 1; k++)
+ ^~~
+ VITIS_LOOP_1987_1: 
+C:\ProjectenVivado\Academiejaar_25-26\EOS-Project\EOS-Project.runs\design_1_v_tpg_0_0_synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp:42704:2: note: FIX-IT applied suggested code changes

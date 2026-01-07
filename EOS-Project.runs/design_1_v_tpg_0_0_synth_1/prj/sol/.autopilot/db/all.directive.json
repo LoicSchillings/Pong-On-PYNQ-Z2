@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "v_tpg",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "v_tpg"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/EOS-Project.runs/design_1_v_tpg_0_0_synth_1/runhls.tcl",
+    "sourceLine": 37,
+    "success": true
+  }
+]

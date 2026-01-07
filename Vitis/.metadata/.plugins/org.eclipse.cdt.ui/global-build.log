@@ -1,0 +1,34 @@
+Nothing to build in platform 'EOS-Project'
+
+22:21:56 **** Incremental Build of configuration Debug for project EOS-PongGame ****
+make all 
+C:/Xilinx/Vitis/2024.1/gnuwin/bin/make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+C:/Xilinx/Vitis/2024.1/gnuwin/bin/make --no-print-directory main-build
+'Building file: ../src/video.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bspinclude/include -MMD -MP -MF"src/video.d" -MT"src/video.o" -o "src/video.o" "../src/video.c"
+../src/video.c: In function 'start_vdma_mm2s':
+../src/video.c:67:62: warning: passing argument 3 of 'XAxiVdma_DmaSetBufferAddr' from incompatible pointer type [-Wincompatible-pointer-types]
+   67 |     Status = XAxiVdma_DmaSetBufferAddr(&Vdma, XAXIVDMA_READ, FrameBufAddr);
+      |                                                              ^~~~~~~~~~~~
+      |                                                              |
+      |                                                              uint32_t * {aka long unsigned int *}
+In file included from ../src/video.c:7:
+C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bspinclude/include/xaxivdma.h:585:40: note: expected 'UINTPTR *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  585 |                               UINTPTR *BufferAddrSet);
+      |                               ~~~~~~~~~^~~~~~~~~~~~~
+'Finished building: ../src/video.c'
+' '
+'Building target: EOS-PongGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/sw/EOS-Project/freertos/bsplib/lib -o "EOS-PongGame.elf"  ./src/game.o ./src/game_state.o ./src/game_tasks.o ./src/iic_phyreset.o ./src/main.o ./src/render.o ./src/udp_perf_server.o ./src/video.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: EOS-PongGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size EOS-PongGame.elf  |tee "EOS-PongGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 194649	   3552	3266624	3464825	 34de79	EOS-PongGame.elf
+'Finished building: EOS-PongGame.elf.size'
+' '

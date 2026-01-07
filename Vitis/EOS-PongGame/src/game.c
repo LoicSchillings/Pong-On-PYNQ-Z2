@@ -1,0 +1,180 @@
+#include "game.h"
+
+static int clamp(int v, int lo, int hi)
+{
+    if (v < lo) return lo;
+    if (v > hi) return hi;
+    return v;
+}
+
+void game_reset_ball(int dir)
+{
+    game.ball.x  = SCREEN_W / 2 - BALL_SIZE / 2;
+    game.ball.y  = (HUD_H + (SCREEN_H - HUD_H)/2) - BALL_SIZE/2;
+
+    /* simple serve */
+    game.ball.vx = (dir >= 0) ? 5 : -5;
+    game.ball.vy = 3;
+}
+
+void game_reset_full(void)
+{
+    game.score_p1 = 0;
+    game.score_p2 = 0;
+
+    game.p1.y = (SCREEN_H - PADDLE_H) / 2;
+    game.p2.y = (SCREEN_H - PADDLE_H) / 2;
+
+    game.p1_ready = 0;
+    game.p2_ready = 0;
+
+    game.mode = GAME_WAIT_START;
+
+    game_reset_ball((rand() & 1) ? 1 : -1);
+}
+
+void game_init(void)
+{
+    game_reset_full();
+}
+
+void game_apply_command(game_cmd_t cmd)
+{
+    /* Reset at any time */
+    if (cmd == CMD_RESET) {
+        game_reset_full();
+        return;
+    }
+
+    /* READY handling */
+    if (cmd == CMD_P1_READY) game.p1_ready = 1;
+    if (cmd == CMD_P2_READY) game.p2_ready = 1;
+
+    /* Start or restart game */
+    if ((game.mode == GAME_WAIT_START || game.mode == GAME_GAMEOVER) &&
+        game.p1_ready && game.p2_ready) {
+
+        game_reset_ball((rand() & 1) ? 1 : -1);
+        game.mode = GAME_RUNNING;
+        game.p1_ready = 0;
+        game.p2_ready = 0;
+        return;
+    }
+
+    /* Ignore paddle movement if not running */
+    if (game.mode != GAME_RUNNING)
+        return;
+
+    /* Paddle movement */
+    /* Paddle movement */
+    switch (cmd) {
+    case CMD_P1_UP:
+        game.p1.y -= PADDLE_SPEED;
+        game.p1.y = clamp(game.p1.y, HUD_H, SCREEN_H - PADDLE_H);
+        break;
+
+    case CMD_P1_DOWN:
+        game.p1.y += PADDLE_SPEED;
+        game.p1.y = clamp(game.p1.y, HUD_H, SCREEN_H - PADDLE_H);
+        break;
+
+    case CMD_P2_UP:
+        game.p2.y -= PADDLE_SPEED;
+        game.p2.y = clamp(game.p2.y, HUD_H, SCREEN_H - PADDLE_H);
+        break;
+
+    case CMD_P2_DOWN:
+        game.p2.y += PADDLE_SPEED;
+        game.p2.y = clamp(game.p2.y, HUD_H, SCREEN_H - PADDLE_H);
+        break;
+
+    default:
+        break;
+    }
+}
+
+static int ball_hits_paddle_left(void)
+{
+    int paddle_x = 20;
+    int ball_left = game.ball.x;
+    int ball_right = game.ball.x + BALL_SIZE;
+    int ball_top = game.ball.y;
+    int ball_bot = game.ball.y + BALL_SIZE;
+
+    int pad_left = paddle_x;
+    int pad_right = paddle_x + PADDLE_W;
+    int pad_top = game.p1.y;
+    int pad_bot = game.p1.y + PADDLE_H;
+
+    return (ball_left <= pad_right &&
+            ball_right >= pad_left &&
+            ball_bot >= pad_top &&
+            ball_top <= pad_bot);
+}
+
+static int ball_hits_paddle_right(void)
+{
+    int paddle_x = SCREEN_W - 20 - PADDLE_W;
+    int ball_left = game.ball.x;
+    int ball_right = game.ball.x + BALL_SIZE;
+    int ball_top = game.ball.y;
+    int ball_bot = game.ball.y + BALL_SIZE;
+
+    int pad_left = paddle_x;
+    int pad_right = paddle_x + PADDLE_W;
+    int pad_top = game.p2.y;
+    int pad_bot = game.p2.y + PADDLE_H;
+
+    return (ball_right >= pad_left &&
+            ball_left <= pad_right &&
+            ball_bot >= pad_top &&
+            ball_top <= pad_bot);
+}
+
+void game_update(void)
+{
+    if (game.mode != GAME_RUNNING)
+        return;
+
+    /* Move ball */
+    game.ball.x += game.ball.vx;
+    game.ball.y += game.ball.vy;
+
+    /* Bounce off top/bottom (below HUD) */
+    if (game.ball.y <= HUD_H) {
+        game.ball.y = HUD_H;
+        game.ball.vy = -game.ball.vy;
+    }
+    if (game.ball.y >= SCREEN_H - BALL_SIZE) {
+        game.ball.y = SCREEN_H - BALL_SIZE;
+        game.ball.vy = -game.ball.vy;
+    }
+
+    /* Paddle collisions */
+    if (ball_hits_paddle_left() && game.ball.vx < 0) {
+        game.ball.vx = -game.ball.vx;
+        game.ball.x += 2;
+    }
+    if (ball_hits_paddle_right() && game.ball.vx > 0) {
+        game.ball.vx = -game.ball.vx;
+        game.ball.x -= 2;
+    }
+
+    /* Scoring */
+    if (game.ball.x < 0) {
+        game.score_p2++;
+        if (game.score_p2 >= 5) {
+            game.mode = GAME_GAMEOVER;
+        } else {
+            game_reset_ball(+1);
+        }
+    }
+    else if (game.ball.x > SCREEN_W) {
+        game.score_p1++;
+        if (game.score_p1 >= 5) {
+            game.mode = GAME_GAMEOVER;
+        } else {
+            game_reset_ball(-1);
+        }
+    }
+}

@@ -1,0 +1,5 @@
+if keyboard.is_pressed('a'):
+        sock.sendto(b"1S", (PYNQ_IP, PORT))
+
+    if keyboard.is_pressed('e'):
+        sock.sendto(b"1E", (PYNQ_IP, PORT))

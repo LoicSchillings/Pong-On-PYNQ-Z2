@@ -1,0 +1,16 @@
+16:39:07 **** Build of configuration Debug for project EOS-HDMI_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 31321 C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/EOS-Project.xpfm standalone_domain C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-HDMI_system/Debug/system.bif
+'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnuwin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+sdcard_gen --xpfm C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/EOS-Project.xpfm --sys_config EOS-Project --bif C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-HDMI_system/Debug/system.bif --bitstream C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-HDMI/_ide/bitstream/design_1_wrapper.bit --elf C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-HDMI/Debug/EOS-HDMI.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-HDMI/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2024.1/bin/bootgen  -image C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-HDMI_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+16:39:15 Build Finished (took 7s.650ms)
+

@@ -1,0 +1,54 @@
+#ifndef GAME_STATE_H
+#define GAME_STATE_H
+
+#include <stdint.h>
+
+/* ---------------- Game constants ---------------- */
+
+#define SCREEN_WIDTH   1280
+#define SCREEN_HEIGHT  720
+#define HUD_HEIGHT     30
+
+#define PADDLE_WIDTH   12
+#define PADDLE_HEIGHT  80
+#define BALL_SIZE      10
+
+/* ---------------- Game mode ---------------- */
+
+typedef enum {
+    GAME_WAIT_START,
+    GAME_RUNNING,
+    GAME_GAMEOVER
+} game_mode_t;
+
+/* ---------------- Game objects ---------------- */
+
+typedef struct {
+    int x;
+    int y;
+} ball_t;
+
+typedef struct {
+    int y;
+} paddle_t;
+
+/* ---------------- Full game state ---------------- */
+
+typedef struct {
+    paddle_t p1;
+    paddle_t p2;
+    ball_t   ball;
+
+    int score_p1;
+    int score_p2;
+
+    game_mode_t mode;
+
+    int p1_ready;
+    int p2_ready;
+} game_state_t;
+
+/* Global game state (owned by game task) */
+extern game_state_t game_state;
+
+#endif /* GAME_STATE_H */

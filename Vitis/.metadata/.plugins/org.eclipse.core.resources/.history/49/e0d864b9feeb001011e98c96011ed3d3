@@ -1,0 +1,6 @@
+#include "game_state.h"
+
+game_input_t game_input = {
+    .p1_cmd = MOVE_NONE,
+    .p2_cmd = MOVE_NONE
+};

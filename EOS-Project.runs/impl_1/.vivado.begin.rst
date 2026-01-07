@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Loic Schillings" Host="FICSIT-PROPERTY" Pid="30340" HostCore="20" HostMemory="016870248448">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Loic Schillings" Host="FICSIT-PROPERTY" Pid="26556" HostCore="20" HostMemory="016870248448">
+    </Process>
+</ProcessHandle>

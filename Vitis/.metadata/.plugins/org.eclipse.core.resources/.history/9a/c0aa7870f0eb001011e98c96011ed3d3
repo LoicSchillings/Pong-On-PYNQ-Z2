@@ -1,0 +1,45 @@
+#include "video.h"
+#include "xil_cache.h"
+
+#define FB_ADDR 0x10000000
+#define BYTES_PP 3
+#define STRIDE (1280 * BYTES_PP)
+
+static volatile uint8_t *fb = (uint8_t *)FB_ADDR;
+
+void video_init(void)
+{
+    // VDMA already started elsewhere
+}
+
+void video_clear(uint8_t r, uint8_t g, uint8_t b)
+{
+    for (int y = 0; y < 720; y++) {
+        for (int x = 0; x < 1280; x++) {
+            int p = y * STRIDE + x * BYTES_PP;
+            fb[p+0] = g;  // GBR mapping (your board quirk)
+            fb[p+1] = b;
+            fb[p+2] = r;
+        }
+    }
+}
+
+void video_draw_rect(int x, int y, int w, int h,
+                     uint8_t r, uint8_t g, uint8_t b)
+{
+    for (int j = 0; j < h; j++) {
+        for (int i = 0; i < w; i++) {
+            int px = x + i;
+            int py = y + j;
+            int p = py * STRIDE + px * BYTES_PP;
+            fb[p+0] = g;
+            fb[p+1] = b;
+            fb[p+2] = r;
+        }
+    }
+}
+
+void video_present(void)
+{
+    Xil_DCacheFlushRange((UINTPTR)fb, STRIDE * 720);
+}

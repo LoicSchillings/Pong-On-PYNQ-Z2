@@ -1,0 +1,28 @@
+#ifndef GAME_STATE_H
+#define GAME_STATE_H
+
+#include <stdint.h>
+
+/* Paddle movement commands */
+typedef enum {
+    MOVE_NONE = 0,
+    MOVE_UP,
+    MOVE_DOWN
+} paddle_cmd_t;
+
+typedef enum {
+    GAME_WAIT_START,   // waiting for both players to press 'A'
+    GAME_RUNNING,
+    GAME_GAMEOVER
+} game_mode_t;
+
+/* Shared game input state */
+typedef struct {
+    volatile paddle_cmd_t p1_cmd;
+    volatile paddle_cmd_t p2_cmd;
+} game_input_t;
+
+/* Global game input */
+extern game_input_t game_input;
+
+#endif

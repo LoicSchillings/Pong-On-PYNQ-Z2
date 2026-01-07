@@ -1,0 +1,60 @@
+#include "video.h"
+#include "game.h"
+#include "game_state.h"
+
+void render_game(void)
+{
+    /* Clear screen */
+    video_clear(0, 0, 0); // black background
+
+    /* Paddles */
+    video_draw_rect(20,
+                    game.p1.y,
+                    PADDLE_W,
+                    PADDLE_H,
+                    255, 255, 255);
+
+    video_draw_rect(SCREEN_W - 20 - PADDLE_W,
+                    game.p2.y,
+                    PADDLE_W,
+                    PADDLE_H,
+                    255, 255, 255);
+
+    /* Ball */
+    video_draw_rect(game.ball.x,
+                    game.ball.y,
+                    BALL_SIZE,
+                    BALL_SIZE,
+                    255, 255, 255);
+
+    render_hud();
+
+    video_present();
+}
+
+void render_hud(void)
+{
+    /* HUD background */
+    video_draw_rect(0, 0, SCREEN_W, HUD_H, 30, 30, 30);
+
+    /* Player 1 score (left) */
+    for (int i = 0; i < game.score_p1; i++) {
+        video_draw_rect(20 + i * 12, 8, 8, 8, 255, 255, 255);
+    }
+
+    /* Player 2 score (right) */
+    for (int i = 0; i < game.score_p2; i++) {
+        video_draw_rect(SCREEN_W - 20 - i * 12, 8, 8, 8, 255, 255, 255);
+    }
+
+    /* Status indicators */
+    if (game.mode == GAME_WAIT_START) {
+        /* Placeholder banner: "PRESS A" */
+        video_draw_rect(560, 8, 160, 12, 255, 255, 0);
+    }
+
+    if (game.mode == GAME_GAMEOVER) {
+        /* Placeholder banner: "GAME OVER" */
+        video_draw_rect(560, 8, 160, 12, 255, 0, 0);
+    }
+}

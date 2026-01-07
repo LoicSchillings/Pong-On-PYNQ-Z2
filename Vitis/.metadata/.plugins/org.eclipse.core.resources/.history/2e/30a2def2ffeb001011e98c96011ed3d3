@@ -1,0 +1,67 @@
+#include "video.h"
+#include "game.h"        // should expose: extern game_state_t game
+#include "game_state.h"  // for SCREEN_W/SCREEN_H/HUD_H, PADDLE sizes, etc.
+
+static void render_hud(void)
+{
+    /* HUD background bar */
+    video_draw_rect(0, 0, SCREEN_W, HUD_H, 30, 30, 30);
+
+    /* Left score (P1) as little blocks */
+    for (int i = 0; i < game.score_p1; i++) {
+        video_draw_rect(20 + i * 14, 8, 10, 10, 255, 255, 255);
+    }
+
+    /* Right score (P2) as little blocks */
+    for (int i = 0; i < game.score_p2; i++) {
+        video_draw_rect(SCREEN_W - 20 - i * 14 - 10, 8, 10, 10, 255, 255, 255);
+    }
+
+    /* Ready indicators (small colored blocks under score) */
+    if (game.p1_ready) {
+        video_draw_rect(20, 20, 10, 6, 0, 255, 0);
+    }
+    if (game.p2_ready) {
+        video_draw_rect(SCREEN_W - 30, 20, 10, 6, 0, 255, 0);
+    }
+
+    /* Mode indicator block in the middle (placeholder “text”) */
+    if (game.mode == GAME_WAIT_START) {
+        /* Yellow block = “PRESS A” */
+        video_draw_rect((SCREEN_W/2) - 80, 8, 160, 12, 255, 255, 0);
+    } else if (game.mode == GAME_GAMEOVER) {
+        /* Red block = “GAME OVER” */
+        video_draw_rect((SCREEN_W/2) - 80, 8, 160, 12, 255, 0, 0);
+    } else {
+        /* Running: small green block */
+        video_draw_rect((SCREEN_W/2) - 40, 8, 80, 12, 0, 255, 0);
+    }
+}
+
+void render_game(void)
+{
+    /* Clear full screen */
+    video_clear(0, 0, 0);
+
+    /* HUD */
+    render_hud();
+
+    /* Paddles (note: HUD_H offset so paddles never draw into HUD) */
+    int p1y = game.p1.y;
+    int p2y = game.p2.y;
+
+    /* Clamp just in case */
+    if (p1y < HUD_H) p1y = HUD_H;
+    if (p2y < HUD_H) p2y = HUD_H;
+    if (p1y > SCREEN_H - PADDLE_H) p1y = SCREEN_H - PADDLE_H;
+    if (p2y > SCREEN_H - PADDLE_H) p2y = SCREEN_H - PADDLE_H;
+
+    video_draw_rect(20, p1y, PADDLE_W, PADDLE_H, 255, 255, 255);
+    video_draw_rect(SCREEN_W - 20 - PADDLE_W, p2y, PADDLE_W, PADDLE_H, 255, 255, 255);
+
+    /* Ball */
+    video_draw_rect(game.ball.x, game.ball.y, BALL_SIZE, BALL_SIZE, 255, 255, 255);
+
+    /* Push frame to HDMI */
+    video_present();
+}

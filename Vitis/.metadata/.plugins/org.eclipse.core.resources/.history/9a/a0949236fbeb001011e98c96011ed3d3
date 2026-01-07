@@ -1,0 +1,39 @@
+#ifndef GAME_H
+#define GAME_H
+
+#include <stdint.h>
+
+#define SCREEN_W 1280
+#define SCREEN_H 720
+
+#define PADDLE_W 20
+#define PADDLE_H 120
+
+#define BALL_SIZE 12
+
+/* Commands coming from UDP */
+typedef enum {
+	CMD_NONE = 0,
+    CMD_P1_UP,
+    CMD_P1_DOWN,
+    CMD_P2_UP,
+    CMD_P2_DOWN
+} game_cmd_t;
+
+typedef struct {
+    int p1_y;
+    int p2_y;
+
+    int ball_x;
+    int ball_y;
+    int ball_vx;
+    int ball_vy;
+} game_state_t;
+
+extern game_state_t game;
+
+void game_init(void);
+void game_update(void);
+void game_apply_command(game_cmd_t cmd);
+
+#endif

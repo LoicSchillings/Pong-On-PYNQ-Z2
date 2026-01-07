@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="EOS-PongGame" location="C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-PongGame" platform="C:/ProjectenVivado/Academiejaar_25-26/EOS-Project/Vitis/EOS-Project/export/EOS-Project/EOS-Project.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="EOS-PongGame_system" sysConfig="EOS-Project" runtime="C/C++" cpu="freertos" cpuInstance="ps7_cortexa9_0" os="freertos10_xilinx" mssSignature="256a9481f3511923a73b74b3dfe328c5">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1846574015">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2102291516" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="freertos_lwip_udp_perf_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

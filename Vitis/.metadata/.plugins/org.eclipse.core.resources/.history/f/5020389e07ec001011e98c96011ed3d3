@@ -1,0 +1,29 @@
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+#include "game.h"
+#include "render.h"
+
+extern QueueHandle_t game_cmd_queue;
+
+void game_task(void *arg)
+{
+    game_cmd_t cmd;
+    const TickType_t frame_delay = pdMS_TO_TICKS(16); // ~60 FPS
+
+    game_init();
+
+    while (1) {
+
+        /* Handle all pending input commands */
+        while (xQueueReceive(game_cmd_queue, &cmd, 0) == pdPASS) {
+            game_apply_command(cmd);
+        }
+
+        game_update();
+        render_game();
+
+        vTaskDelay(frame_delay);
+    }
+}

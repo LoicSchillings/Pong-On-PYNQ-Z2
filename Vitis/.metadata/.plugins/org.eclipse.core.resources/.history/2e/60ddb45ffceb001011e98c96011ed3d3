@@ -1,0 +1,38 @@
+#include "video.h"
+#include "game.h"
+
+void render_game(void)
+{
+    video_clear(0, 0, 0); // black background
+
+    // Paddles
+    video_draw_rect(20, game.p1_y, PADDLE_W, PADDLE_H, 255,255,255);
+    video_draw_rect(1240, game.p2_y, PADDLE_W, PADDLE_H, 255,255,255);
+
+    // Ball
+    video_draw_rect(game.ball_x, game.ball_y,
+                    BALL_SIZE, BALL_SIZE, 255,255,255);
+
+    video_present();
+}
+
+void render_hud(void)
+{
+    video_draw_rect(0, 0, SCREEN_WIDTH, HUD_HEIGHT, 30, 30, 30);
+
+    /* SCORE INFO */
+    for (int i = 0; i < state.score_p1; i++)
+        video_draw_rect(20 + i*10, 8, 8, 8, 255, 255, 255);
+
+    for (int i = 0; i < state.score_p2; i++)
+        video_draw_rect(SCREEN_WIDTH - 20 - i*10, 8, 8, 8, 255, 255, 255);
+
+    /* Status indicators */
+    if (state.mode == GAME_WAIT_START) {
+        video_draw_rect(560, 8, 160, 12, 255, 255, 0); // "PRESS A"
+    }
+
+    if (state.mode == GAME_GAMEOVER) {
+        video_draw_rect(560, 8, 160, 12, 255, 0, 0);   // "GAME OVER"
+    }
+}

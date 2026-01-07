@@ -1,0 +1,10 @@
+16:41:50 **** Incremental Build of configuration Debug for project EOS-HDMI ****
+make all 
+C:/Xilinx/Vitis/2024.1/gnuwin/bin/make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+C:/Xilinx/Vitis/2024.1/gnuwin/bin/make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+16:41:50 Build Finished (took 317ms)
+

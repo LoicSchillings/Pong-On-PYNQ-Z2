@@ -1,0 +1,108 @@
+#include "game.h"
+#include "game_state.h"
+
+/* ---------------- Helpers ---------------- */
+
+void game_reset_ball(int dir)
+{
+    game.ball.x  = SCREEN_W / 2;
+    game.ball.y  = SCREEN_H / 2;
+    game.ball.vx = dir * 4;
+    game.ball.vy = 3;
+}
+
+void game_reset_full(void)
+{
+    game.score_p1 = 0;
+    game.score_p2 = 0;
+
+    game.p1_ready = 0;
+    game.p2_ready = 0;
+
+    game.mode = GAME_WAIT_START;
+
+    game_reset_ball(+1);
+}
+
+/* ---------------- Init ---------------- */
+
+void game_init(void)
+{
+    game.p1.y = (SCREEN_H - PADDLE_H) / 2;
+    game.p2.y = (SCREEN_H - PADDLE_H) / 2;
+
+    game_reset_full();
+}
+
+/* ---------------- Input ---------------- */
+
+void game_apply_command(game_cmd_t cmd)
+{
+    if (cmd == CMD_RESET) {
+        game_reset_full();
+        return;
+    }
+
+    if (game.mode == GAME_WAIT_START) {
+        if (cmd == CMD_P1_READY) game.p1_ready = 1;
+        if (cmd == CMD_P2_READY) game.p2_ready = 1;
+
+        if (game.p1_ready && game.p2_ready) {
+            game.mode = GAME_RUNNING;
+            game_reset_ball(+1);
+        }
+        return;
+    }
+
+    if (game.mode != GAME_RUNNING)
+        return;
+
+    switch (cmd) {
+        case CMD_P1_UP:   game.p1.y -= PADDLE_SPEED; break;
+        case CMD_P1_DOWN: game.p1.y += PADDLE_SPEED; break;
+        case CMD_P2_UP:   game.p2.y -= PADDLE_SPEED; break;
+        case CMD_P2_DOWN: game.p2.y += PADDLE_SPEED; break;
+        default: break;
+    }
+}
+
+/* ---------------- Update ---------------- */
+
+void game_update(void)
+{
+    if (game.mode != GAME_RUNNING)
+        return;
+
+    game.ball.x += game.ball.vx;
+    game.ball.y += game.ball.vy;
+
+    /* Wall collision */
+    if (game.ball.y <= HUD_H || game.ball.y >= SCREEN_H - BALL_SIZE)
+        game.ball.vy = -game.ball.vy;
+
+    /* Paddle 1 */
+    if (game.ball.x <= 40 &&
+        game.ball.y + BALL_SIZE >= game.p1.y &&
+        game.ball.y <= game.p1.y + PADDLE_H)
+        game.ball.vx = -game.ball.vx;
+
+    /* Paddle 2 */
+    if (game.ball.x >= SCREEN_W - 40 &&
+        game.ball.y + BALL_SIZE >= game.p2.y &&
+        game.ball.y <= game.p2.y + PADDLE_H)
+        game.ball.vx = -game.ball.vx;
+
+    /* Scoring */
+    if (game.ball.x < 0) {
+        game.score_p2++;
+        game_reset_ball(+1);
+    }
+
+    if (game.ball.x > SCREEN_W) {
+        game.score_p1++;
+        game_reset_ball(-1);
+    }
+
+    if (game.score_p1 >= 5 || game.score_p2 >= 5)
+        game.mode = GAME_GAMEOVER;
+}

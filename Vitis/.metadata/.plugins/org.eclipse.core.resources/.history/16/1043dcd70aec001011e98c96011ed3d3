@@ -1,0 +1,106 @@
+#include "video.h"
+#include "game.h"
+
+#define HUD_H 48
+
+/* Minimal 5x7 font for only the letters we need.
+   Each byte is a row, 5 LSBs used. */
+static void draw_char5x7(int x, int y, char c, int scale, uint8_t r, uint8_t g, uint8_t b)
+{
+    const uint8_t *glyph = 0;
+
+    /* Digits */
+    static const uint8_t G_0[7] = {0x0E,0x11,0x11,0x11,0x11,0x11,0x0E};
+    static const uint8_t G_1[7] = {0x04,0x0C,0x04,0x04,0x04,0x04,0x0E};
+    static const uint8_t G_5[7] = {0x1F,0x10,0x10,0x1E,0x01,0x01,0x1E};
+
+    /* Letters we need: A,C,E,I,N,O,P,R,S,T,W */
+    static const uint8_t G_A[7] = {0x0E,0x11,0x11,0x1F,0x11,0x11,0x11};
+    static const uint8_t G_C[7] = {0x0F,0x10,0x10,0x10,0x10,0x10,0x0F};
+    static const uint8_t G_E[7] = {0x1F,0x10,0x10,0x1E,0x10,0x10,0x1F};
+    static const uint8_t G_I[7] = {0x1F,0x04,0x04,0x04,0x04,0x04,0x1F};
+    static const uint8_t G_N[7] = {0x11,0x19,0x15,0x13,0x11,0x11,0x11};
+    static const uint8_t G_O[7] = {0x0E,0x11,0x11,0x11,0x11,0x11,0x0E};
+    static const uint8_t G_P[7] = {0x1E,0x11,0x11,0x1E,0x10,0x10,0x10};
+    static const uint8_t G_R[7] = {0x1E,0x11,0x11,0x1E,0x14,0x12,0x11};
+    static const uint8_t G_S[7] = {0x0F,0x10,0x10,0x0E,0x01,0x01,0x1E};
+    static const uint8_t G_T[7] = {0x1F,0x04,0x04,0x04,0x04,0x04,0x04};
+    static const uint8_t G_W[7] = {0x11,0x11,0x11,0x11,0x15,0x15,0x0A};
+
+    if (c == '0') glyph = G_0;
+    else if (c == '1') glyph = G_1;
+    else if (c == '5') glyph = G_5;
+    else if (c == 'A') glyph = G_A;
+    else if (c == 'C') glyph = G_C;
+    else if (c == 'E') glyph = G_E;
+    else if (c == 'I') glyph = G_I;
+    else if (c == 'N') glyph = G_N;
+    else if (c == 'O') glyph = G_O;
+    else if (c == 'P') glyph = G_P;
+    else if (c == 'R') glyph = G_R;
+    else if (c == 'S') glyph = G_S;
+    else if (c == 'T') glyph = G_T;
+    else if (c == 'W') glyph = G_W;
+    else if (c == ' ') return;
+
+    if (!glyph) return;
+
+    for (int row = 0; row < 7; row++) {
+        uint8_t bits = glyph[row];
+        for (int col = 0; col < 5; col++) {
+            if (bits & (1 << (4 - col))) {
+                video_draw_rect(x + col*scale, y + row*scale, scale, scale, r, g, b);
+            }
+        }
+    }
+}
+
+static void draw_text(int x, int y, const char *s, int scale, uint8_t r, uint8_t g, uint8_t b)
+{
+    int cx = x;
+    while (*s) {
+        draw_char5x7(cx, y, *s, scale, r, g, b);
+        cx += 6 * scale; /* 5px + 1px spacing */
+        s++;
+    }
+}
+
+void render_game(void)
+{
+    video_clear(0, 0, 0);
+
+    /* HUD bar */
+    video_draw_rect(0, 0, SCREEN_W, HUD_H, 30, 30, 30);
+
+    /* Text */
+    draw_text(20, 8, "SCORE 5 TO WIN", 2, 255, 255, 255);
+    draw_text(820, 8, "PRESS E TO RESET", 2, 255, 255, 255);
+
+    /* Score dots */
+    for (int i = 0; i < game.score_p1; i++)
+        video_draw_rect(20 + i*14, HUD_H - 14, 10, 10, 255, 255, 0);
+
+    for (int i = 0; i < game.score_p2; i++)
+        video_draw_rect(SCREEN_W - 20 - 10 - i*14, HUD_H - 14, 10, 10, 255, 255, 0);
+
+    /* Ready indicators */
+    if (game.mode == GAME_WAIT_START) {
+        /* Show which player is ready */
+        video_draw_rect(300, 8, 80, 12, game.p1_ready ? 0 : 120, game.p1_ready ? 255 : 120, 0);
+        video_draw_rect(SCREEN_W - 380, 8, 80, 12, game.p2_ready ? 0 : 120, game.p2_ready ? 255 : 120, 0);
+        draw_text(520, 8, "PRESS A", 2, 255, 255, 0);
+    }
+
+    if (game.mode == GAME_GAMEOVER) {
+        draw_text(520, 8, "GAME OVER", 2, 255, 0, 0);
+    }
+
+    /* Paddles */
+    video_draw_rect(20, game.p1.y, PADDLE_W, PADDLE_H, 255, 255, 255);
+    video_draw_rect(SCREEN_W - 20 - PADDLE_W, game.p2.y, PADDLE_W, PADDLE_H, 255, 255, 255);
+
+    /* Ball */
+    video_draw_rect(game.ball.x, game.ball.y, BALL_SIZE, BALL_SIZE, 255, 255, 255);
+
+    video_present();
+}

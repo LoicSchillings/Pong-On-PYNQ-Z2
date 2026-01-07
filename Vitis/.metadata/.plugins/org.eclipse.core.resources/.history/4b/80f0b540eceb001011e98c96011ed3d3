@@ -1,0 +1,73 @@
+#include "game.h"
+
+game_state_t game;
+
+void game_init(void)
+{
+    game.p1_y = (SCREEN_H - PADDLE_H) / 2;
+    game.p2_y = (SCREEN_H - PADDLE_H) / 2;
+
+    game.ball_x = SCREEN_W / 2;
+    game.ball_y = SCREEN_H / 2;
+    game.ball_vx = 4;
+    game.ball_vy = 3;
+}
+
+void game_move_paddle(int player, int dir)
+{
+    int *y = (player == 1) ? &game.p1_y : &game.p2_y;
+
+    *y += dir * 10;
+
+    if (*y < 0) *y = 0;
+    if (*y > SCREEN_H - PADDLE_H)
+        *y = SCREEN_H - PADDLE_H;
+}
+
+void game_apply_command(game_cmd_t cmd)
+{
+    switch (cmd) {
+        case CMD_P1_UP:
+            game.p1_y -= 10;
+            if (game.p1_y < 0) game.p1_y = 0;
+            break;
+
+        case CMD_P1_DOWN:
+            game.p1_y += 10;
+            if (game.p1_y > SCREEN_H - PADDLE_H)
+                game.p1_y = SCREEN_H - PADDLE_H;
+            break;
+
+        case CMD_P2_UP:
+            game.p2_y -= 10;
+            if (game.p2_y < 0) game.p2_y = 0;
+            break;
+
+        case CMD_P2_DOWN:
+            game.p2_y += 10;
+            if (game.p2_y > SCREEN_H - PADDLE_H)
+                game.p2_y = SCREEN_H - PADDLE_H;
+            break;
+    }
+}
+
+void game_update(void)
+{
+    game.ball_x += game.ball_vx;
+    game.ball_y += game.ball_vy;
+
+    // Top / bottom bounce
+    if (game.ball_y <= 0 || game.ball_y >= SCREEN_H - BALL_SIZE)
+        game.ball_vy = -game.ball_vy;
+
+    // Paddle collisions
+    if (game.ball_x <= 40 &&
+        game.ball_y + BALL_SIZE >= game.p1_y &&
+        game.ball_y <= game.p1_y + PADDLE_H)
+        game.ball_vx = -game.ball_vx;
+
+    if (game.ball_x >= SCREEN_W - 40 &&
+        game.ball_y + BALL_SIZE >= game.p2_y &&
+        game.ball_y <= game.p2_y + PADDLE_H)
+        game.ball_vx = -game.ball_vx;
+}
